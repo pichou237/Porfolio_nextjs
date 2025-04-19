@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client';
 
-import { Card, CardContent } from "@/src/components/ui/card";
+import { Card } from "@/src/components/ui/card";
 import { FaCode, FaLaptopCode, FaServer, FaObjectGroup } from "react-icons/fa";
 
 const services = [
