@@ -34,8 +34,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between px-6 py-2">
-      {/* Logo */}
+  <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md md:shadow-none px-6 py-2 flex items-center justify-between backdrop-blur-sm bg-opacity-90">
+   {/* Logo */}
       <a href="#">
         <Image src={logo} alt="logo personnal" height={140} width={140} />
       </a>

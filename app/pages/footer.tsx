@@ -49,7 +49,7 @@ const Footer = () => {
                 {column.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
                     <Link
-                      href={link}
+                      href={`/#${link.toLowerCase()}`}
                       className="hover:text-white transition-colors duration-300"
                     >
                       {link}
